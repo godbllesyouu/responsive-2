@@ -5,6 +5,7 @@
 }
 
 body {
+    background: #000;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
@@ -99,7 +100,7 @@ header {
     transition: 0.5s;
 }
 
-.title-1 h2 {
+.title-1 h6 {
     font-weight: 300;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: Light;
@@ -308,7 +309,7 @@ header {
     background: #1A1A1A;
 }
 
-.list-4 h3 {
+.list-4 h5 {
     font-size: 115px;
     color: white;
 }
@@ -389,7 +390,7 @@ header {
     gap: 65px;
 }
 
-.list-5 h3 {
+.list-5 h6 {
     color: white;
     font-size: 115px;
     width: 1090px;
@@ -529,57 +530,74 @@ footer {
         display: flex;
         overflow: hidden;
     }
-    .title-1 h2{
+
+    .title-1 img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .title-1 h6 {
         font-size: 50px;
-        width: 330px;
+        width: 300px;
+        font-weight: 100;
         text-align: center;
     }
-    .title-1 button{
+
+    .title-1 button {
         margin: 0 auto;
     }
+
     .list-2 {
         display: flex;
         overflow: hidden;
         width: 100%;
     }
-    .cards{
+
+    .cards {
         display: flex;
         text-align: center;
         flex-direction: column;
     }
-    .card img{
+
+    .card img {
         object-fit: cover;
         width: 400px;
     }
-    .anun{
+
+    .anun {
         display: flex;
         justify-content: space-around;
     }
-    .anun h3{
+
+    .anun h3 {
         font-size: 60px;
     }
+
     .list-3 {
         display: flex;
         flex-direction: column;
         overflow: hidden;
         width: 100%;
     }
-    .list-3 h3{
+
+    .list-3 h3 {
         text-align: center;
         font-size: 70px;
     }
 
-    .cards-2{
+    .cards-2 {
         margin-top: 30px;
     }
-    .card-2{
+
+    .card-2 {
         width: 400px;
     }
-    .card-2 p{
+
+    .card-2 p {
         width: 300px;
     }
 
-    .cards-2{
+    .cards-2 {
         display: flex;
         flex-direction: column;
     }
@@ -589,76 +607,103 @@ footer {
         overflow: hidden;
         width: 100%;
     }
-    .list-4 h3{
-        font-size: 60px;
+
+    .list-4 h3 {
+        display: none;
     }
-    
-.card-5 {
-    flex: 0 0 82%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    margin-right: 16px;
-    background: #f0f0f0;
-    padding-left: 32px;
-    width: 400px;
-    height: 271px;
-    border-radius: 12px;
-    box-sizing: border-box;
-    background: #232323;
-    overflow: hidden;
-}
+
+    .cards-5 {
+        /* flex: 0 0 42%; */
+        display: none;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-right: 16px;
+        background: #f0f0f0;
+        padding-left: 32px;
+        width: 500px;
+        height: 200px;
+        border-radius: 12px;
+        box-sizing: border-box;
+        background: #232323;
+        overflow: hidden;
+    }
+
+    .list-4 h5 {
+        display: flex;
+        align-items: center;
+        font-size: 50px;
+        color: white;
+        margin-top: 30px;
+    }
+
+    .title-4 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-5 p {
+        display: none;
+    }
 
     .list-5 {
         display: flex;
         width: 100%;
         overflow: hidden;
     }
-    .list-5 h3{
+
+    .list-5 h6 {
         font-size: 60px;
         width: 400px;
     }
-    footer{
+
+    footer {
         display: flex;
         overflow: hidden;
         height: 200px;
         width: 100%;
         flex-direction: column;
     }
-    .footer-title{
+
+    .footer-title {
         width: 100%;
         display: flex;
         align-items: center;
         padding-top: 30px;
         overflow: hidden;
     }
-    .txt{
+
+    .txt {
         flex-direction: column;
         text-align: center;
         display: flex;
         gap: 15px;
     }
-    .txt p{
+
+    .txt p {
         width: 100%;
         font-size: 14px;
     }
-    .txt span{
+
+    .txt span {
         display: flex;
         gap: 20px;
     }
-    .gic{
+
+    .gic {
         width: 100%;
     }
 }
 
- @media (max-width:896.98px) {
-    .menu{
+@media (max-width:896.98px) {
+    .menu {
         display: flex;
         gap: 30px;
     }
-    .menu a{
+
+    .menu a {
         font-size: 16px;
     }
+
     .list-1 {
         display: flex;
         justify-content: center;
@@ -666,11 +711,13 @@ footer {
         overflow: hidden;
         width: 100%;
     }
-     .title-1{
+
+    .title-1 {
         display: flex;
         justify-content: center;
         text-align: center;
-     }
+    }
+
     .title-1 h2 {
         font-weight: 300;
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -681,7 +728,8 @@ footer {
         width: 600px;
         color: white;
     }
-    .title-1 button{
+
+    .title-1 button {
         margin: 0 auto;
     }
 
@@ -691,33 +739,37 @@ footer {
         width: 100%;
     }
 
-    .cards{
+    .cards {
         display: flex;
         flex-direction: column;
     }
+
     .list-3 {
         display: flex;
         flex-direction: column;
         overflow: hidden;
         width: 100%;
     }
-    .cards-2{
+
+    .cards-2 {
         margin-top: 30px;
     }
-    .list-3 h3{
+
+    .list-3 h3 {
         text-align: center;
     }
-  
+
     .list-4 {
         display: flex;
         overflow: hidden;
         width: 100%;
     }
-    .list-4 h3{
+
+    .list-4 h3 {
         font-size: 90px;
     }
-  
-     
+
+
     .card-5 {
         flex: 0 0 42%;
         display: flex;
@@ -733,22 +785,26 @@ footer {
         background: #232323;
         overflow: hidden;
     }
+
     .list-5 {
         display: flex;
         overflow: hidden;
         width: 100%;
     }
-    .list-5 h3{
+
+    .list-5 h3 {
         font-size: 65px;
         width: 700px;
     }
+
     footer {
         display: flex;
         flex-direction: column;
         overflow: hidden;
         width: 100%;
     }
-    .gic{
+
+    .gic {
         width: 100%;
     }
 }
@@ -788,4 +844,4 @@ footer {
 @media (min-width:992px) and(max-width:1199.98px) {}
 
 
-@media (min-width:1200px) and(max-width:1399.98px) {} 
+@media (min-width:1200px) and(max-width:1399.98px) {}
